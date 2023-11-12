@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy Anniversary!</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  
+</head>
+<body>
+  <h1>Happy Anniversary!</h1> 
+  <h2 class="her">Bongiwe & Badu 💞</h2>
+<div class="countdown">
+  <div class="countdown-row">
+    <span>D:</span>
+    <span id="countdown-days"></span>
+  </div>
+
+  <div class="countdown-row">
+    <span>H:</span>
+    <span id="countdown-hours"></span>
+  </div>
+
+  <div class="countdown-row">
+    <span>M:</span>
+    <span id="countdown-minutes"></span>
+  </div>
+
+  <div class="countdown-row">
+    <span>S:</span>
+    <span id="countdown-seconds"></span>
+  </div>
+  
+</div>
+<div class="container">
+ <div class="thumbnail-b">
+     <div class="thumbnail">
+         <img src="img2.jpg" alt="couple">
+         <img src="img1.jpg" alt="">
+         <img src="img3.jpg" alt="">
+         <img src="img4.jpg" alt="couple">
+         <img src="img5.jpg" alt="couple">
+         <img src="img6.jpg" alt="couple">
+         <img src="img7.jpg" alt="couple">
+         <img src="img8.jpg" alt="couple">
+         <img src="img9.jpg" alt="couple">
+         <img src="img10.jpg" alt="couple">
+         <img src="img11.jpg" alt="couple">
+         <img src="img12.jpg" alt="couple">
+         <img src="img13.jpg" alt="couple">
+         <img src="img14.jpg" alt="couple">
+         <img src="img15.jpg" alt="couple">
+         <img src="img16.jpg" alt="couple">
+         <img src="img17.jpg" alt="couple">
+         <img src="img18.jpg" alt="couple">
+         <img src="img19.jpg" alt="couple">
+         <img src="img20.jpg" alt="couple">
+     </div>
+ </div>
+</div> 
+<div class="con"> 
+    
+    <marquee class="now-playing" direction="left">Now playing - <span class="song-name"></span></marquee>
+    <div id="time-slider">
+        <div class="slider-timers">
+            <span class="current-time">1:00</span>
+            <span class="total-duration">4:00</span>
+        </div>
+        <input type="range" min="1" max="100" value="50" class="dslider" id="myRange" onchange="seekTo()">
+    </div>
+    <div class="controls">
+      <button class="btn previous" onclick="prevTrack()"><i class="ph-bold ph-skip-back"></i></button>
+      <button class="btn play-pause" onclick="playpauseTrack()">
+        <i id="play-pause-icon" class="ph-bold ph-play"></i>
+      </button>
+      <button class="btn next" onclick="nextTrack()"><i class="ph-bold ph-skip-forward"></i></button>
+    </div>
+</div>
+  <script src="script.js"></script>
+  <div id="wave">
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+</body>
+</html>
